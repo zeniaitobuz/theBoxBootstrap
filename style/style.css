@@ -54,18 +54,20 @@
     position: relative;
     right: -10vw;
 }
-
+.hero-card h2{
+    margin: 1vh 0 1vh 0;
+}
 .backbutton {
     position: relative;
-    top: -1.3vh;
     left: 0vw;
+    top: -0.4vh;
     width: 14.5vw;
 }
 
 .nextbutton {
     position: relative;
     right: 0vw;
-    top: -1.3vh;
+    top: -0.4vh;
     width: 14.5vw;
 }
 
@@ -164,7 +166,7 @@
     font-size: 4rem;
     font-weight: 500;
     position: relative;
-    top: -12vh
+    top: -10vh
 }
 .clientImg{
     position: relative;
@@ -178,7 +180,7 @@
     border-left: 4px solid #F9995D;
     padding-left: 15px;
     position: relative;
-    top: -14vh;
+    top: -10vh;
 }
 .totprojects{
     width: 20vw;
@@ -193,7 +195,7 @@
     font-size: 4rem;
     font-weight: 500;
     position: relative;
-    top: -11vh;
+    top: -8vh;
 }
 .projectImg{
     position: relative;
@@ -207,7 +209,7 @@
     border-left: 4px solid #F9995D;
     padding-left: 15px;
     position: relative;
-    top: -12vh;
+    top: -8vh;
 }
 .awards{
     width: 20vw;
@@ -222,7 +224,7 @@
     font-size: 4rem;
     font-weight: 500;
     position: relative;
-    top: -12vh;
+    top: -8vh;
 }
 .awardImg{
     position: relative;
@@ -236,7 +238,7 @@
     border-left: 4px solid #F9995D;
     padding-left: 15px;
     position: relative;
-    top: -14vh;
+    top: -9vh;
 }
 .business{
     width: 20vw;
@@ -251,7 +253,7 @@
     font-size: 4rem;
     font-weight: 500;
     position: relative;
-    top: -12vh;
+    top: -9vh;
 }
 .business p{
     color: #667299;
@@ -260,7 +262,7 @@
     border-left: 4px solid #F9995D;
     padding-left: 15px;
     position: relative;
-    top: -12vh;
+    top: -9vh;
 }
 .yearsImg{
     position: relative;
