@@ -1,0 +1,310 @@
+
+.blue-texts {
+    color: #2947a9;
+  }
+  
+.bg-blue {
+    background-color: #2947a9;
+  }  
+.body {
+    font-family: 'Work Sans';
+}
+
+.mynavbar {
+    margin: 0 5vw 0 5vw;
+    background: white;
+}
+
+.my-options {
+    margin-left: 50vw;
+    font-size: 1.2rem;
+}
+
+.my-options :hover {
+    color: orange !important;
+}
+
+.navbar-brand {
+    margin-left: 3vw;
+    top: 0.1vh;
+    color: #2947A9;
+}
+
+.top-banner {
+    background-repeat: no-repeat;
+    width: 54vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-banner img {
+    height: 100%;
+}
+
+.top-banner h1 {
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+}
+
+.hero-card {
+    background: #2947A9;
+    color: white;
+    height: 23vh;
+    position: relative;
+    right: -10vw;
+}
+
+.backbutton {
+    position: relative;
+    top: -1.3vh;
+    left: 0vw;
+    width: 14.5vw;
+}
+
+.nextbutton {
+    position: relative;
+    right: 0vw;
+    top: -1.3vh;
+    width: 14.5vw;
+}
+
+.reputation-text {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 3vh;
+}
+
+.text-best {
+    color: #3D445C;
+}
+
+.text-subtexts {
+    color: #858EAD;
+}
+
+.about-box{
+    background: #2947A9;
+    position: relative;
+    right: 15vw;
+    top: 10vh;
+    color: white;
+}
+.about-us{
+    padding-left :10vw;
+    margin: 15vh 0 15vh 0;
+}
+.services-section{
+    width: 100%;
+    background: #F6F8F7;
+    padding: 1rem 10rem 1rem 10rem;
+}
+.blue-boxes{
+    background: #2947A9;
+    height: 30vh;
+    width: 20vw;
+    color: white;
+}
+
+.white-boxes{
+    background: white;
+    height: 30vh;
+    width: 20vw;
+    color: #2947A9;
+}   
+.box-image{
+    width: 4vw;
+}
+.contactUs{
+    width: 100%;
+    background: white;
+    height: 100vh;
+}
+.experience{
+    position: relative;
+    width: 25vw;
+    left: 65vw;
+    top: -60vh;
+}
+.years{
+    color: #2947A9;
+    font-size: 4em;
+    font-weight: 700;
+}
+.paratext{
+    color: #525B7A;
+    position: relative;
+    font-weight: 400;
+    font-size: 1.3rem;
+    top: 5vh;
+}
+.contact{
+    background: #2947A9;
+    color: #FFFFFF;
+    width: 10vw;
+    height: 8vh;
+    font-size: large;
+    position: relative;
+    top: 10vh;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+}
+.clients{
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    left: 30vw;
+    top: 15vh;
+    box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1);
+    padding-left: 30px;
+}
+.clients h2{
+    font-size: 4rem;
+    font-weight: 500;
+    position: relative;
+    top: -12vh
+}
+.clientImg{
+    position: relative;
+    left: 13vw;
+    top: -1rem;
+}
+.clients p{
+    color: #667299;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-left: 4px solid #F9995D;
+    padding-left: 15px;
+    position: relative;
+    top: -14vh;
+}
+.totprojects{
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    left: 12vw;
+    top: 8vh;
+    box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1);
+    padding-left: 30px;
+}
+.totprojects h2{
+    font-size: 4rem;
+    font-weight: 500;
+    position: relative;
+    top: -11vh;
+}
+.projectImg{
+    position: relative;
+    left: -4vw;
+    top: -4rem;
+}
+.totprojects p{
+    color: #667299;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-left: 4px solid #F9995D;
+    padding-left: 15px;
+    position: relative;
+    top: -12vh;
+}
+.awards{
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    left: 30vw;
+    top: 1.9vh;
+    box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1);
+    padding-left: 30px;
+}
+.awards h2{
+    font-size: 4rem;
+    font-weight: 500;
+    position: relative;
+    top: -12vh;
+}
+.awardImg{
+    position: relative;
+    left: 13vw;
+    top: -1rem;
+}
+.awards p{
+    color: #667299;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-left: 4px solid #F9995D;
+    padding-left: 15px;
+    position: relative;
+    top: -14vh;
+}
+.business{
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    left: 12vw;
+    top: -8vh;
+    box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1);
+    padding-left: 30px;
+}
+.business h2{
+    font-size: 4rem;
+    font-weight: 500;
+    position: relative;
+    top: -12vh;
+}
+.business p{
+    color: #667299;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-left: 4px solid #F9995D;
+    padding-left: 15px;
+    position: relative;
+    top: -12vh;
+}
+.yearsImg{
+    position: relative;
+    left: 15vw;
+    top: 6rem;
+}
+.consultation-item{
+    position: relative;
+    top: -30vh;
+
+}
+.consultation-item button{
+    top: -20vh;
+    left: 50vw;
+    background: none;
+    height: 10vh;
+}
+
+.btn-primary {
+    background-color: #2947a9;
+    border-color: #2947a9;
+  }
+  .all-text-border{
+    border-left: 10px solid #2947A9;
+    color: #2947A9;
+  }
+.other-options{
+    color: #C2C7D6;
+}
+.stone-row-1{
+    position: relative;
+    left: -7vw;
+}
+.stone-row-2{
+    position: relative;
+    left: -7vw;
+}
+.button-b{
+    height: 7vh;
+    position: relative;
+    margin: 1vh 1vw 1vh -6vw;
+}
+.button-n{
+    height: 7vh;
+    position: relative;
+    margin: 1vh 1vw 1vh 1vw;
+}

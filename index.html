@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <body>
+    <!-- navbar section starts -->
+    <nav class="mynavbar navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img class="logo" src="./images/navBar/box.png" alt="navbar-logo" />
+        <a
+          class="navbar-brand position-absolute fw-bold fst-italic ps-3 pt-2 fs-3"
+          href="#"
+          >The Box</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex flex-row justify-content-around"
+          id="navbarNavAltMarkup "
+        >
+          <div class="my-options navbar-nav d-flex flex-row flex gap-3">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">About us</a>
+            <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            <a class="nav-link active" aria-current="page" href="#">Services</a>
+            <a class="nav-link active" aria-current="page" href="#"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar section ends -->
+
+    <!-- topbanner section starts-->
+    <section class="w-100 row hero-bg container">
+      <div class="d-flex top-banner">
+        <img src="./images/topBanner/topbanner.png" alt="topbanner" />
+        <h1 class="top-left display-4 fw-bold text-building-things">
+          Building things <br />
+          is our mission.
+        </h1>
+      </div>
+      <div
+        class="col-4 d-flex flex-column justify-self-end align-self-end hero-card gap-2 feature-project"
+      >
+        <h2 class="text-center fs-4 fw-bold pt-2">Feature Projects</h2>
+        <p class="text-center fw-normal fs-5">
+          The National University of <br />
+          Architecture
+        </p>
+        <div class="row d-flex justify-content-center d-flex flex-row gap-1">
+          <button class="btn backbutton btn-dark px-5" type="button">
+            <img src="./images/topBanner/back.png" alt="logo" />
+            Back
+          </button>
+          <button class="btn nextbutton btn-dark px-5" type="button">
+            Next
+            <img src="./images/topBanner/next.png" alt="topbanner-logo" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- topbanner section ends-->
+
+    <!-- reputation section starts-->
+    <section class="container my-5">
+      <div class="row justify-content-between my-5">
+        <h1 class="text-center reputation-text fw-bold my-5">Our Reputation</h1>
+      </div>
+      <div class="row justify-content-between mt-4 mb-5">
+        <div class="col-3 border">
+          <img
+            src="./images/reputation/headphonepng.png"
+            alt="reputation-logo"
+            class="mt-4"
+          />
+          <p class="text-best fs-4 fw-bold pt-3">Best Services</p>
+          <p class="text-subtexts fw-bold mt-1">
+            Nullam senectus porttitor in eget. Eget rutrum leo interdum.
+          </p>
+        </div>
+        <div class="col-3 border">
+          <img
+            src="./images/reputation/headphone2.png"
+            alt="reputation-logo"
+            class="mt-4"
+          />
+          <p class="text-best fs-4 fw-bold pt-3">Best Teams</p>
+          <p class="text-subtexts fw-bold mt-1">
+            Cursus semper tellus volutpat aliquet lacus.
+          </p>
+        </div>
+        <div class="col-3 border">
+          <img
+            src="./images/reputation/pencil.png"
+            alt="reputation-logo"
+            class="mt-4"
+          />
+          <p class="text-best fw-bold fs-4 pt-3">Best Designs</p>
+          <p class="text-subtexts fw-bold mt-1">
+            Ultricies at ipsum nunc, tristique nam lectus.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- reputation section ends-->
+
+    <!-- about-us section starts-->
+    <section class="about-us d-flex flex-row position-relative">
+      <img
+        src="./images/person/person.png"
+        alt="person-image"
+        class="z-index-1 position-relative"
+      />
+      <div class="about-box z-index-2 position-absolute p-5 h-auto w-25">
+        <h3 class="display-4">About Us</h3>
+        <p class="justify-content-start pt-4 fs-6">
+          For more than 30 years we have been delivering world-class
+          construction and we’ve built many lasting relationships along the way.
+        </p>
+        <p class="justify-content-start pt-4 fs-6">
+          We’ve matured into an industry leader and trusted resource for those
+          seeking quality, innovation and reliability when building in the U.S.
+        </p>
+        <button class="position-relative p-2 btn-lg">
+          More on Our History
+        </button>
+      </div>
+    </section>
+    <!-- about-us section  ends-->
+
+    <!-- service section starts-->
+    <section class="services-section">
+      <div class="row justify-content-between my-5">
+        <h1 class="text-center display-5 fw-bold my-4">Services</h1>
+      </div>
+      <div
+        class="row justify-content-between fs-4 fw-bold mt-4 mb-5 text-center"
+      >
+        <div class="col-3 border pt-5 pb-5 white-boxes text-primary">
+          <img
+            src="./images/services/construction.png"
+            alt="consttuction-logo"
+            class="box-image border-end"
+          />
+          <br /><br />
+          <span class="border-top pt-2">Construction</span>
+        </div>
+        <div class="col-3 border pt-5 pb-5 blue-boxes text-light">
+          <img
+            src="./images/services/renovation.png"
+            alt="renovation-logo"
+            class="box-image"
+          />
+          <br /><br />
+          <span class="border-top pt-2">Renovation</span>
+        </div>
+        <div class="col-3 border pt-5 pb-5 white-boxes text-primary">
+          <img
+            src="./images/services/consultation.png"
+            alt="consultation-logo"
+            class="box-image"
+          />
+          <br /><br />
+          <span class="border-top pt-2">consultation</span>
+        </div>
+      </div>
+
+      <div
+        class="row justify-content-between fs-4 fw-bold mt-4 mb-5 text-center"
+      >
+        <div class="col-3 border pt-5 pb-5 blue-boxes text-light">
+          <img
+            src="./images/services/repairServices.png"
+            alt="repairServices-logo"
+            class="box-image"
+          />
+          <br /><br />
+          <span class="border-top pt-2">Repairservice</span>
+        </div>
+        <div class="col-3 border pt-5 pb-5 white-boxes text-primary">
+          <img
+            src="./images/services/architectute.png"
+            alt="architectute-logo"
+            class="box-image"
+          />
+          <br /><br />
+          <span class="border-top pt-2">Architecture</span>
+        </div>
+        <div class="col-3 border pt-5 pb-5 blue-boxes text-light">
+          <img
+            src="./images/services/electric.png"
+            alt="electric-logo"
+            class="box-image"
+          />
+          <br /><br />
+          <span class="border-top pt-2">Electric</span>
+        </div>
+      </div>
+    </section>
+    <!-- service section ends-->
+
+    <!-- contact_us section  starts-->
+    <section class="contactUs">
+      <div class="columns">
+        <div class="clients">
+          <img
+            class="clientImg"
+            src="./images/contactUs/deal.png"
+            alt="dealimg"
+          />
+          <h2>84</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div class="totprojects">
+          <img
+            class="projectImg"
+            src="./images/contactUs/notes.png"
+            alt="notesimg"
+          />
+          <h2>123</h2>
+          <p>Projects Completed</p>
+        </div>
+        <div class="awards">
+          <img
+            class="awardImg"
+            src="./images/contactUs/awards.png"
+            alt="awardimg"
+          />
+          <h2>37</h2>
+          <p>Awards Win</p>
+        </div>
+        <div class="business">
+          <img
+            class="yearsImg"
+            src="./images/contactUs/business.png"
+            alt="businessimg"
+          />
+          <h2>30</h2>
+          <p>Years in Business</p>
+        </div>
+      </div>
+      <div class="experience">
+        <h3 class="years">30 Years Experience</h3>
+        <p class="paratext">
+          Our company has been the leading provided construction services to
+          clients throughout the USA since 1988.
+        </p>
+        <a href="">
+          <button class="contact">Contact Us</button>
+        </a>
+      </div>
+      <div></div>
+    </section>
+    <!-- contact_us section  ends-->
+
+    <!-- consultation section starts-->
+    <section class="consultation row mt-2 text-white">
+      <img src="./images/consultant/lower-banner.png" alt="lowerbanner" />
+      <div class="consultation-item col-7 pt-5 position-relative">
+        <p class="col-10 offset-2 fs-3 fw-bold">
+          Free consultation with exceptional quality
+        </p>
+        <p class="col-6 offset-2">
+          Just one call away:
+          <span class="text-decoration-underline">+84 1102 2703</span>
+        </p>
+      </div>
+      <div class="consultation-item d-flex align-items-center">
+        <button
+          class="border-2 fw-bold text-white offset-2 fs-5 px-3 py-2 border-light border col-2 position-relative p-2 btn-lg"
+        >
+          Get your consultation
+        </button>
+      </div>
+    </section>
+    <!-- consultation section ends-->
+
+    <!-- projects section starts-->
+    <section class="container-fluid projects">
+      <p class="offset-1 fs-1 mt-5">Projects</p>
+      <div class="row">
+        <nav class="col-3 nav flex-column my-2 offset-1">
+          <a
+            class="nav-link active all-text-border fs-4"
+            aria-current="page"
+            href="#"
+            >All</a
+          >
+          <a
+            class="nav-link active other-options fs-4"
+            aria-current="page"
+            href="#"
+            >Commercial</a
+          >
+          <a
+            class="nav-link active other-options fs-4"
+            aria-current="page"
+            href="#"
+            >Residential</a
+          >
+          <a
+            class="nav-link active other-options fs-4"
+            aria-current="page"
+            href="#"
+            >Other</a
+          >
+        </nav>
+        <div class="col stone-row-1 text-light">
+          <div class="card mb-5 bg-blue" style="width: 28rem">
+            <img
+              src="./images/projects/wildstone.png"
+              class="card-img-top"
+              alt="wildstone-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Wildstone Infra Hotel</h5>
+              <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
+          </div>
+          <div class="card bg-blue" style="width: 28rem">
+            <img
+              src="./images/projects/wishstone.png"
+              class="card-img-top"
+              alt="wishstone-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
+          </div>
+        </div>
+        <div class="col stone-row-2 text-light">
+          <div class="card mb-5 bg-blue" style="width: 28rem">
+            <img
+              src="./images/projects/parkinston.png"
+              class="card-img-top"
+              alt="parkinston-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
+          </div>
+          <div class="card bg-blue" style="width: 28rem">
+            <img
+              src="./images/projects/oregano.png"
+              class="card-img-top"
+              alt="oregano-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div
+          class="col-7 d-flex justify-content-evenly align-items-center offset-4"
+        >
+          <button
+            type="button"
+            class="btn position-relative button-b col-4 btn-dark"
+          >
+            <img src="./images/topBanner/back.png" alt="back-img" />
+            Back
+          </button>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <button
+            type="button"
+            class="btn position-relative button-n col-4 btn-dark px-5"
+          >
+            Next
+            <img src="./images/topBanner/next.png" alt="next-img" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- projects section ends-->
+
+    <!-- form section starts-->
+    <section class="container-fluid py-5">
+      <p class="fs-1 fw-bold text-center mb-4">What can us do for you?</p>
+      <p class="text-center text-dark-emphasis mb-4">
+        We are ready to work on a project of any complexity <br />
+        whether it's commercial or residential.
+      </p>
+      <div class="row d-flex justify-content-center">
+        <div class="col-6">
+          <div class="row d-flex justify-content-between">
+            <div class="col-5 my-3">
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Your Name*"
+              />
+            </div>
+            <div class="col-5 my-3">
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Email*"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-6">
+          <div class="row d-flex justify-content-between">
+            <div class="col-5 my-3">
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Reason for Contacting*"
+              />
+            </div>
+            <div class="col-5 my-3">
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Phone"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center my-3">
+        <div class="col-6 form-group text-light-emphasis">
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Message"
+          ></textarea>
+          * indicates a required field
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center my-4">
+        <div class="col-2 d-flex justify-content-center">
+          <button type="button" class="btn btn-primary px-5 py-2 fs-5">
+            Submit
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- form section ends-->
+
+    <!-- bottom section starts-->
+    <section class="container-fluid my-5">
+      <div class="row">
+        <div class="col-md-4 col-8 offset-md-1">
+          <p class="">
+            <span class="blue-texts fw-medium">ADDRESS: &nbsp</span>6391 Elgin
+            St. Celina, Delaware 10299
+          </p>
+          <p class="">
+            <span class="blue-texts fw-medium"
+              >PHONE:&nbsp&nbsp&nbsp&nbsp&nbsp</span
+            >+84 1102 2703
+          </p>
+          <p class="">
+            <span class="blue-texts fw-medium"
+              >EMAIL:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span
+            >hello@thebox.com
+          </p>
+          <img class="logo" src="./images/address/theBox.png" alt="box-logo" />
+          <span class="fs-5 fw-bold blue-texts emphasis ps-3 pt-2 fs-3"
+            ><em>The</em>Box</span
+          >
+        </div>
+        <div class="col-md-4 col-8 offset-md-3">
+          <p class="blue-texts fw-medium">Newsletter:</p>
+          <form action="">
+            <input
+              type="text"
+              placeholder="Type Your mail here"
+              class="py-1 px-2"
+              style="width: 16vw"
+            />
+            <button
+              type="submit"
+              class="bg-warning text-light border-warning fw-medium py-1 px-1"
+            >
+              Subscribe
+            </button>
+          </form>
+          <p class="mt-3 blue-texts fw-medium">Social:</p>
+          <div class="">
+            <img src="./images/address/facebook.png" alt="facebook-logo" />
+            <img
+              src="./images/address/linkedin.png"
+              alt="linkedin-logo"
+              class="ms-3"
+            />
+            <img
+              src="./images/address/twitter.png"
+              alt="twitter-logo"
+              class="ms-3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bottom section ends-->
+
+    <!-- footer section starts-->
+    <footer class="row bg-blue">
+      <p class="col offset-1 pt-2 text-light">
+        TheBox Company © 2022. All Rights Reserved
+      </p>
+    </footer>
+    <!-- footer section ends-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
